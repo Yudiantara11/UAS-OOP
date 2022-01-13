@@ -92,10 +92,10 @@ public class App extends Application {
         kode_motorInput.setMinWidth(20);
 
         //Button
-        Button editButton = new Button("Edit");
+        Button editButton = new Button("Update");
         editButton.setOnAction(e -> editButtonClicked());
 
-        Button updateButton = new Button("Update");
+        Button updateButton = new Button("Insert");
         updateButton.setOnAction(e -> updateButtonClicked());
 
         Button deleteButton = new Button("Delete");
